@@ -1,7 +1,4 @@
 # Sequence-Align
-A sequence alignment module implementing Needleman-Wunsch algorithm.
-
-
 This is a Repo consists of two modules:
 
 1. A data parser that streams the UNIPROT protein sequence.
