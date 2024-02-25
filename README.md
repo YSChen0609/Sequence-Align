@@ -1,4 +1,7 @@
 # Sequence-Align
+A sequence alignment module implementing Needleman-Wunsch algorithm.
+
+
 This is a Repo consists of two modules:
 
 1. A data parser that streams the UNIPROT protein sequence.
@@ -13,7 +16,7 @@ Pairwise sequence global alignment to find out their optimal alignment score, op
 ## CompareProteinSeq
 See `CompareProteinSeq.py`.
 
-Fetch and parse the UNIPROT protein sequence (FASTA format) with this url format: https://rest.uniprot.org/uniprotkb/${seq_id}.fasta.
+Fetch and parse the UniProt protein sequence (FASTA format) with this url format: https://rest.uniprot.org/uniprotkb/${seq_id}.fasta.
 
 Experiement the sequence global alignment by calling the `SeqAlign` given a compare set containing the protein sequence name (id).
 
