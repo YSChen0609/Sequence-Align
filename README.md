@@ -6,12 +6,15 @@ This is a Repo consists of two modules:
 
 ## SeqAlign
 See `SeqAlign.py`.
+
 Pairwise sequence global alignment to find out their optimal alignment score, optimal alignment, and the corresponding sequence identity.
 - Adjustable substitution score matrix (default BLOSUM62)
 
 ## CompareProteinSeq
 See `CompareProteinSeq.py`.
+
 Fetch and parse the UNIPROT protein sequence (FASTA format) with this url format: https://rest.uniprot.org/uniprotkb/${seq_id}.fasta.
+
 Experiement the sequence global alignment by calling the `SeqAlign` given a compare set containing the protein sequence name (id).
 
 ## Experiments
